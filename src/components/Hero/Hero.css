@@ -1,0 +1,57 @@
+.hero-wrapper{
+    color: white;
+    position: relative;
+    padding-bottom: 2rem;
+    background-color: var(--black);
+
+}
+
+.hero-container{
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+
+/* right side of the hero*/
+
+.image-container{
+    width: 30rem;
+    height: 35rem;
+    overflow: hidden;
+    border-radius: 15rem 15rem 0 0;
+    border: 8px solid rgba(225, 225, 225, 0.12);
+}
+
+.image-container img{
+    height: 100%;
+    width: 100%;
+}
+
+
+/* left side of the hero*/
+
+.hero-left{
+    gap: 3rem;
+
+}
+.hero-title{
+    position: relative;
+    z-index: 1  ;
+}
+
+.hero-title>h1{
+    font-weight:400 ;
+    font-size: 3.8rem;
+    line-height: 4rem;
+}
+
+.orange-circle{
+     height: 4rem;
+     width: 4rem;
+     background: var(--orange-gradient);
+     border-radius: 999px;
+     position: absolute;
+     right: 28%;
+     top: -8%;
+     z-index: -1 ;
+}
